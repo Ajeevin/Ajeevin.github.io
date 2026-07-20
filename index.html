@@ -38,12 +38,22 @@
       backdrop-filter: blur(12px);
       border-bottom: 1px solid rgba(192,57,43,0.2);
     }
+    /*  Logo  */
+    .logo-img {
+  max-height: 45px;
+  width: auto;
+  display: block;
+  border-radius: 8px;
+  }
+    
+    
     .nav-logo {
-      font-family: 'Playfair Display', serif;
+      font-family: 'Orbitron', serif;
       font-size: 1.25rem; font-weight: 700;
       color: var(--white); letter-spacing: 0.04em;
+      padding-right: 28%;
     }
-    .nav-logo span { color: var(--red); }
+    .nav-logo span { color: #cb0d0d; }
     .nav-links { display: flex; gap: 2rem; list-style: none; }
     .nav-links a {
       color: var(--silver); text-decoration: none; font-size: 0.9rem;
@@ -72,8 +82,8 @@
       transform: translateY(-50%);
       width: 55vw; height: 55vw; max-width: 700px; max-height: 700px;
       border-radius: 50%;
-      background: radial-gradient(circle at 38% 38%, #3a1010, #1a0505 60%, #0B1A2E);
-      border: 2px solid rgba(192,57,43,0.35);
+      background: radial-gradient(circle at 38% 38%, #9a0909, #1a0505 60%, #0B1A2E);
+      border: 2px solid rgba(184, 30, 13, 0.35);
       box-shadow: 0 0 80px rgba(192,57,43,0.15), inset 0 0 60px rgba(0,0,0,0.6);
       animation: moonPulse 6s ease-in-out infinite;
     }
@@ -386,7 +396,8 @@
 
   <!-- NAV -->
   <nav>
-    <div class="nav-logo">Red<span>Moon</span> Aerospace</div>
+    <img src="C:\Users\Ajeevin N S\Downloads\Final Out.png" alt="Red Moon Aerospace & Defence" class="logo-img">
+    <div  class="nav-logo">Red<span> Moon</span> Aerospace <span> & </span> Defence</div>
     <ul class="nav-links">
       <li><a href="#problem">Problem</a></li>
       <li><a href="#solution">Solution</a></li>
@@ -579,7 +590,7 @@
         <div class="market-sub">Reachable in 5 Years</div>
       </div>
     </div>
-    <div style="display:flex;gap:2rem;flex-wrap:wrap;margin-top:1rem;" class="fade-up">
+    <div style="display:flex; justify-content: flex-end;justify-content: space-around;gap:2rem;flex-wrap:wrap;margin-top:1rem;" class="fade-up">
       <div style="border-left:3px solid var(--red);padding-left:1.2rem;">
         <div style="font-size:1.5rem;font-weight:700;font-family:'Playfair Display',serif">40,000+</div>
         <div style="color:var(--silver);font-size:0.85rem;margin-top:0.2rem">New aircraft needed globally by 2042</div>
@@ -587,10 +598,6 @@
       <div style="border-left:3px solid var(--red);padding-left:1.2rem;">
         <div style="font-size:1.5rem;font-weight:700;font-family:'Playfair Display',serif">UAE Hub</div>
         <div style="color:var(--silver);font-size:0.85rem;margin-top:0.2rem">Etihad, flydubai, Air Arabia — all based here</div>
-      </div>
-      <div style="border-left:3px solid var(--red);padding-left:1.2rem;">
-        <div style="font-size:1.5rem;font-weight:700;font-family:'Playfair Display',serif">Hub71</div>
-        <div style="color:var(--silver);font-size:0.85rem;margin-top:0.2rem">Abu Dhabi's AI startup program — applying now</div>
       </div>
     </div>
   </section>
@@ -608,7 +615,7 @@
     <div style="margin-top:2.5rem;display:flex;gap:2rem;justify-content:center;flex-wrap:wrap;position:relative;">
       <a href="mailto:contact@redmoonaerospace.com" style="color:var(--silver);font-size:0.9rem;text-decoration:none;">✉ contact@redmoonaerospace.com</a>
       <a href="#" style="color:var(--silver);font-size:0.9rem;text-decoration:none;">🌐 redmoonaerospace.com</a>
-      <a href="#" style="color:var(--silver);font-size:0.9rem;text-decoration:none;">📍 Abu Dhabi, UAE</a>
+      <a href="#" style="color:var(--silver);font-size:0.9rem;text-decoration:none;">📍 Banglore, India</a>
     </div>
   </section>
 
